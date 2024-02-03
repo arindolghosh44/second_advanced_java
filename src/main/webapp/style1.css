@@ -1,0 +1,143 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Lemon');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family:Poppins;
+}
+.header{
+	width:100%;
+	height:60px;
+	background:aqua;
+	box-shadow:0px 0px 10px black;
+	padding:0px 5%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	
+}
+.header h1{
+	font-size:22px;
+	color:orange;
+}
+.header h1 span{
+	color:royalblue;
+	
+}
+
+.popup{
+	width:650px;
+	height:400px;
+	background:white;
+	box-shadow:0px 0px 10px black;
+	margin-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+	
+}
+.popup .title{
+	width:100%;
+	height:40px;
+	text-align:center;
+	color:white;
+	background:orange;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px
+	
+}
+.popup form{
+	width:100%;
+	padding:15px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	gap:15px;
+	flex-wrap:wrap;
+	background:pink;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px
+}
+.popup form .field{
+	width:30%;
+	color:aquamarine;
+}
+.popup form .field label{
+	font-weight:bold;
+}
+.popup form .field input,
+.popup form .field select{
+	width:100%;
+	padding:10px;
+	outline:none;
+	border:2px solid silver;
+	border-radius:5px;
+}
+.popup form .textarea-field{
+	width:95%;
+	height:auto;
+	color:aquamarine;
+}
+.popup form .textarea-field label{
+	font-weight:bold;
+}
+.popup form .textarea-field textarea{
+	width:100%;
+	padding:10px;
+	outline:none;
+	border:2px solid silver;
+	border-radius:5px;
+}
+.popup form input[type="submit"]{
+	padding:15px 20px;
+	background:royalblue;
+	color:white;
+	font-size:15px;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.student-details{
+	width:50%;
+	padding:10px;
+	padding:15px;
+	margin:20px auto;
+	background:whitesmoke;
+}
+.details table{
+	width:100%;
+	height:100%;
+}
+.details table thead{
+	background:darkcyan;
+	color:white;
+}
+.details table tbody{
+	background:white;
+}
+.details table tr,
+.details table td,
+.details table th{
+	padding:8px;
+}
+.details table tr{
+	border-bottom:3px solid silver;
+}
+.details table td a{
+	text-decoration:none;
+	color:black;
+}
+.details table td a i{
+	font-size:18px;
+	margin-right:15px;
+}
+.details table td a i:nth-child(1){
+	color:royalblue !important;
+}
+.details table td a i:nth-child(2){
+	color:red !important;
+}
